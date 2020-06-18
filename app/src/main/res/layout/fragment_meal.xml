@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:orientation="horizontal"
+        android:layout_height="50dp"
+        android:id="@+id/ll_complete_profile"
+        android:background="#EBE8E8">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile is not completed"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="  Complete now"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:id="@+id/ll_day_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/curve_edges"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tv_day_1"
+                    style="@style/day_title_style"
+                    android:text="Sunday" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+
+                    <TextView
+                        android:id="@+id/tv_day_1_meal_1_name"
+                        style="@style/meal_name_style"
+                        android:text="Brunch:" />
+
+
+                    <TextView
+                        android:id="@+id/tv_day_1_meal_1"
+                        style="@style/meal_style"
+                        android:text="Halwa Puri, Nan" />
+
+                    <CheckBox
+                        android:id="@+id/cb_day_1_meal_1"
+                        style="@style/checkbox_style" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+
+                    <TextView
+                        android:id="@+id/tv_day_1_meal_2_name"
+                        style="@style/meal_name_style"
+                        android:text="Brunch:" />
+
+                    <TextView
+                        android:id="@+id/tv_day_1_meal_2"
+                        style="@style/meal_style"
+                        android:text="Halwa Puri, Nan" />
+
+                    <CheckBox
+                        android:id="@+id/cb_day_1_meal_2"
+                        style="@style/checkbox_style" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_save_day_1"
+                    style="@style/save_button_style"
+                    android:text="Save" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_day_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/curve_edges"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tv_day_2"
+                    style="@style/day_title_style"
+                    android:text="Monday" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+
+                    <TextView
+                        android:id="@+id/tv_day_2_meal_1_name"
+                        style="@style/meal_name_style"
+                        android:text="Brunch:" />
+
+
+                    <TextView
+                        android:id="@+id/tv_day_2_meal_1"
+                        style="@style/meal_style"
+                        android:text="Halwa Puri, Nan" />
+
+                    <CheckBox
+                        android:id="@+id/cb_day_2_meal_1"
+                        style="@style/checkbox_style" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+
+                    <TextView
+                        android:id="@+id/tv_day_2_meal_2_name"
+                        style="@style/meal_name_style"
+                        android:text="Brunch:" />
+
+                    <TextView
+                        android:id="@+id/tv_day_2_meal_2"
+                        style="@style/meal_style"
+                        android:text="Halwa Puri, Nan" />
+
+                    <CheckBox
+                        android:id="@+id/cb_day_2_meal_2"
+                        style="@style/checkbox_style" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_save_day_2"
+                    style="@style/save_button_style"
+                    android:text="Save" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_day_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/curve_edges"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tv_day_3"
+                    style="@style/day_title_style"
+                    android:text="Tuesday" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+
+                    <TextView
+                        android:id="@+id/tv_day_3_meal_1_name"
+                        style="@style/meal_name_style"
+                        android:text="Brunch:" />
+
+
+                    <TextView
+                        android:id="@+id/tv_day_3_meal_1"
+                        style="@style/meal_style"
+                        android:text="Halwa Puri, Nan" />
+
+                    <CheckBox
+                        android:id="@+id/cb_day_3_meal_1"
+                        style="@style/checkbox_style" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+
+                    <TextView
+                        android:id="@+id/tv_day_3_meal_2_name"
+                        style="@style/meal_name_style"
+                        android:text="Brunch:" />
+
+                    <TextView
+                        android:id="@+id/tv_day_3_meal_2"
+                        style="@style/meal_style"
+                        android:text="Halwa Puri, Nan" />
+
+                    <CheckBox
+                        android:id="@+id/cb_day_3_meal_2"
+                        style="@style/checkbox_style" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_save_day_3"
+                    style="@style/save_button_style"
+                    android:text="Save" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_day_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/curve_edges"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_day_4"
+                    style="@style/day_title_style"
+                    android:text="Tuesday" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+
+                    <TextView
+                        android:id="@+id/tv_day_4_meal_1_name"
+                        style="@style/meal_name_style"
+                        android:text="Brunch:" />
+
+
+                    <TextView
+                        android:id="@+id/tv_day_4_meal_1"
+                        style="@style/meal_style"
+                        android:text="Halwa Puri, Nan" />
+
+                    <CheckBox
+                        android:id="@+id/cb_day_4_meal_1"
+                        style="@style/checkbox_style" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+
+                    <TextView
+                        android:id="@+id/tv_day_4_meal_2_name"
+                        style="@style/meal_name_style"
+                        android:text="Brunch:" />
+
+                    <TextView
+                        android:id="@+id/tv_day_4_meal_2"
+                        style="@style/meal_style"
+                        android:text="Halwa Puri, Nan" />
+
+                    <CheckBox
+                        android:id="@+id/cb_day_4_meal_2"
+                        style="@style/checkbox_style" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_save_day_4"
+                    style="@style/save_button_style"
+                    android:text="Save" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

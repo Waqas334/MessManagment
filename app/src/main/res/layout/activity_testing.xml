@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/cardview_dark_background"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="9">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3">
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_day_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/curve_edges"
+        android:elevation="30dp"
+        android:padding="8dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_card_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="expandCard"
+            android:text="Sunday" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_card_day"
+            android:layout_alignBottom="@+id/tv_card_day"
+            android:layout_alignParentRight="true"
+            android:onClick="expandCard"
+            android:src="@drawable/ic_arrow_drop_down_black_24dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_texts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_card_day"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdhakjshdjashdkjahsd ajskdljaskld asdkljaskdjas askdalsjd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdhakjshdjashdkjahsd ajskdljaskld asdkljaskdjas askdalsjd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdhakjshdjashdkjahsd ajskdljaskld asdkljaskdjas askdalsjd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdhakjshdjashdkjahsd ajskdljaskld asdkljaskdjas askdalsjd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdhakjshdjashdkjahsd ajskdljaskld asdkljaskdjas askdalsjd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdhakjshdjashdkjahsd ajskdljaskld asdkljaskdjas askdalsjd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdhakjshdjashdkjahsd ajskdljaskld asdkljaskdjas askdalsjd" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_day_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_day_1"
+        android:layout_margin="8dp"
+        android:background="@drawable/curve_edges"
+        android:elevation="30dp"
+        android:padding="8dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_card_day_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="expandCard"
+            android:text="Monday" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_card_day_2"
+            android:layout_alignBottom="@+id/tv_card_day_2"
+            android:layout_alignParentRight="true"
+            android:onClick="expandCard"
+            android:src="@drawable/ic_arrow_drop_down_black_24dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_texts_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_card_day_2"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdhakjshdjashdkjahsd ajskdljaskld asdkljaskdjas askdalsjd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdhakjshdjashdkjahsd ajskdljaskld asdkljaskdjas askdalsjd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdhakjshdjashdkjahsd ajskdljaskld asdkljaskdjas askdalsjd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdhakjshdjashdkjahsd ajskdljaskld asdkljaskdjas askdalsjd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdhakjshdjashdkjahsd ajskdljaskld asdkljaskdjas askdalsjd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdhakjshdjashdkjahsd ajskdljaskld asdkljaskdjas askdalsjd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdhakjshdjashdkjahsd ajskdljaskld asdkljaskdjas askdalsjd" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

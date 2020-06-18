@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="et_phone_number_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:background">@drawable/phone_number_bg</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColorHint">#55FFFFFF</item>
+    </style>
+
+    <style name="et_number_style">
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textSize">@dimen/defaultTextSize</item>
+        <item name="android:maxLength">4</item>
+        <item name="android:textColorHint">#55FFFFFF</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:backgroundTint">@android:color/white</item>
+    </style>
+</resources>

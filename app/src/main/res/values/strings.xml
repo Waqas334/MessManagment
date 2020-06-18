@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mess Managment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_meal">Meal</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_user">User</string>
+
+    <string name="facebook_app_id">205776504028457</string>
+    <string name="fb_login_protocol_scheme">fb205776504028457</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    <string name="google_api_key">505192300067-6c4ffb27unpv1v5h5b0ir3mboos18738.apps.googleusercontent.com</string>-->
+    <!--    <string name="clien_secret">XisC_u1VA1hEF1cqJhpC5vQq</string>-->
+
+</resources>

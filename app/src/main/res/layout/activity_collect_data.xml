@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_complete_signup"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="8">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="3">
+
+            <com.androidbull.messmanagment.util.CircleImageView
+                android:id="@+id/civ_profile_pic"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_worker" />
+
+            <RelativeLayout
+                android:id="@+id/rl_collect_data_half_circle"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_alignBottom="@+id/civ_profile_pic"
+                android:layout_centerHorizontal="true"
+                android:alpha="0.7"
+                android:background="@drawable/half_bottom" />
+
+            <TextView
+                android:id="@+id/tv_collect_data_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/civ_profile_pic"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:text="Change"
+                android:textColor="@color/textColor" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="32dp"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/et_collect_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/curve_edges"
+                android:hint="Name"
+                android:inputType="textPersonName" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <EditText
+                android:id="@+id/et_collect_rank"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/curve_edges"
+                android:hint="Rank" />
+
+            <EditText
+                android:id="@+id/et_collect_father_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="2"
+                android:background="@drawable/curve_edges"
+                android:hint="Father Name"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/et_room_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/curve_edges"
+                android:hint="Room No" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/et_collect_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/curve_edges"
+                android:hint="Phone Number"
+                android:inputType="number" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_complete_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_collect_data_logout"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_bg"
+        android:text="Complete Sign up!"
+        android:textAllCaps="false"
+        android:textColor="@color/signup_button_color" />
+
+    <LinearLayout
+        android:id="@+id/ll_collect_data_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_logged_in_with"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You are logged in with "
+            android:textColor="@color/textColor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout?"
+            android:textColor="@color/textColor"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

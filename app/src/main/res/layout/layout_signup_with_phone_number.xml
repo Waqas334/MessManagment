@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.waqasyounis.phonenumberinput.PhoneNumberEditText
+        android:id="@+id/phone_number_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Email Address" />
+
+    <!--    EditText for Code-->
+    <EditText
+        android:id="@+id/et_phone_number_code"
+        style="@style/et_code_style"
+        android:layout_alignStart="@+id/et_phone_number_code_1"
+        android:layout_alignLeft="@+id/et_phone_number_code_1"
+        android:layout_alignEnd="@+id/et_phone_number_code_1"
+        android:layout_alignRight="@+id/et_phone_number_code_1"
+        android:hint="XXXXXX"
+        android:inputType="number"
+        android:visibility="invisible" />
+
+    <!--    EditText for Code-->
+    <EditText
+        android:id="@+id/et_phone_number_code_dummy"
+        style="@style/et_code_style"
+        android:text="XXXXXX"
+        android:visibility="invisible" />
+
+
+    <!--    TextView for Timer-->
+    <TextView
+        android:id="@+id/tv_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_number_edit_text"
+        android:layout_alignRight="@+id/phone_number_edit_text"
+        android:layout_marginTop="20dp"
+        android:text="60:00"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+
+    <Button
+        android:id="@+id/btn_reset_password_reset_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_countdown"
+        android:layout_alignLeft="@+id/phone_number_edit_text"
+        android:layout_alignRight="@+id/phone_number_edit_text"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_bg"
+        android:text="Get Code"
+        android:textAllCaps="false"
+        android:textColor="@color/signup_button_color" />
+
+</RelativeLayout>

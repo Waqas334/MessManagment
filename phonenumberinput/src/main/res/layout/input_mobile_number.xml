@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    android:orientation="horizontal"
+    android:weightSum="11">
+
+    <EditText
+        android:layout_marginLeft="5dp"
+        android:enabled="false"
+        android:text="0"
+        style="@style/et_phone_number_style" />
+
+    <EditText
+        android:enabled="false"
+        android:text="3"
+        style="@style/et_phone_number_style" />
+
+    <EditText
+        android:text="4"
+        style="@style/et_phone_number_style" />
+
+    <EditText
+        android:text="1"
+        style="@style/et_phone_number_style" />
+
+    <EditText
+        android:text="8"
+        style="@style/et_phone_number_style" />
+
+    <EditText
+        android:text="5"
+        style="@style/et_phone_number_style" />
+
+    <EditText
+        android:text="9"
+        style="@style/et_phone_number_style" />
+
+    <EditText
+        android:text="2"
+        style="@style/et_phone_number_style" />
+
+    <EditText
+        android:text="5"
+        style="@style/et_phone_number_style" />
+
+    <EditText
+        android:text="6"
+        style="@style/et_phone_number_style" />
+
+    <EditText
+        android:text="2"
+        style="@style/et_phone_number_style" />
+
+
+</LinearLayout>
